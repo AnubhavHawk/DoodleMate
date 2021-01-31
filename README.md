@@ -1,5 +1,6 @@
 # DoodleMate
 A web application where you can communicate with your friends over a video call and doodle images. The one who draws a better doodle, gets higher score.
+### [Watch demo](https://youtu.be/m41Id4gLbWQ)
 
 <hr/>
 
