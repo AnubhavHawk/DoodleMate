@@ -29,10 +29,10 @@ let client = AgoraRTC.createClient({
     codec: "vp8",
 });
 
-client.init("0f0fc2f836cf4b5f93b4a85d7fda5537");
+client.init("<App Id>");
 
 // Join a channel
-client.join("0060f0fc2f836cf4b5f93b4a85d7fda5537IACvCW1rnwrrKZ6cKhnKi87mPP3g9L5FSUgKqQJTGD6bpwZa8+gAAAAAEABI+NBc2rsWYAEAAQDauxZg", "testing", null, (uid)=>{
+client.join("<Temporary Token>", "<Channel Name>", null, (uid)=>{
   // Create a local stream
   let localStream = AgoraRTC.createStream({
     audio: true,
